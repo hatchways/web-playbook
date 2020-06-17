@@ -5,3 +5,5 @@
 - Relative - the element is positioned relative to its normal position.
 - Absolute - the element is positioned absolutely to its first positioned parent.
 - Fixed - the element is positioned related to the browser window.
+
+Here is an [example](https://codepen.io/bonnieli/pen/OJMRYxG)
