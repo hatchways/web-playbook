@@ -8,6 +8,7 @@ Welcome to Hatchways' Web Development Resource, a repo dedicated to collect comm
 
 - [General](general.md)
 - [CSS](css.md)
+- [JavaScript](javascript.md)
 
 ## Contributions
 
