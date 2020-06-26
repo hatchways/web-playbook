@@ -10,5 +10,5 @@
 - Since new array is returned, we can chain methods to it. Eg. .map can be followed by .filter
 - Use map only when we require a new array to be returned and perform further operations on it
 
-In depth article: https://codeburst.io/javascript-map-vs-foreach-f38111822c0f#:~:text=Well%2C%20the%20forEach()%20method,to%20mutate%20the%20calling%20array.&text=The%20difference%20is%20that%20map,Array%20of%20the%20same%20size.
+In depth article: [here](https://codeburst.io/javascript-map-vs-foreach-f38111822c0f#:~:text=Well%2C%20the%20forEach()%20method,to%20mutate%20the%20calling%20array.&text=The%20difference%20is%20that%20map,Array%20of%20the%20same%20size.)
 
