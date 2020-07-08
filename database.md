@@ -1,0 +1,18 @@
+## What is the difference between soft delete and hard delete? Why would you want to do either or
+- Soft delete: 
+  - Flagging row as deleted (rather than actually deleting)
+  - Advantages:
+    - Have record of data for future analysis
+    - Don't have to worry about cascading delete on other tables
+  - Disadvantages:
+    - Have to take flag into account when coding, which may lead to bugs
+    - Decreased performance due to memory that 'deleted' rows would be taking
+    - May have high maintainability costs depending on quantity and pace of deletions on platform
+- Hard delete: 
+  - Permanently removing row
+  - Advantages:
+    - Saves space (thus increasing computation speed)
+    - Can easily set cascade deletes to remove related records
+      - This would be easier to code around (i.e. you'd have less conditionals)
+  - Disadvantages:
+    - No record of deleted data

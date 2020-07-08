@@ -10,6 +10,7 @@ Welcome to Hatchways' Web Development Resource, a repo dedicated to collect comm
 - [CSS](css.md)
 - [JavaScript](javascript.md)
 - [Security](security.md)
+- [Database](database.md)
 
 ## Contributions
 
