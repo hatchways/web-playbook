@@ -1,4 +1,4 @@
-## What is the difference between soft delete and hard delete? Why would you want to do either or
+## What is the difference between soft delete and hard delete? Why would you want to do either or?
 - Soft delete: 
   - Flagging row as deleted (rather than actually deleting)
   - Advantages:
