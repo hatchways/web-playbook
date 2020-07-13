@@ -18,3 +18,9 @@ If a server wants to allow requests from another origin via CORS, it can set cer
 - Access-Control-Allow-Methods: specifies the HTTP methods allowable when accessing the resource.
 
 When a site wants to make a request to another server via CORS, the browser will first send a preflight request (with the exception of a few types of requests), asking the server of its CORS policy. The server will set its CORS headers in the response, which will tell the browser what permissions the site has. The site can then go ahead with the request.
+
+## What is lazy loading?
+
+Lazy loading can speed up the rendering of an app that contains many data-heavy resources, such as images. With lazy loading, the resources aren't loaded unless they are needed by the user. For example, if you go to YouTube.com all the image thumbnails that appear on your viewport will be shown. Any images below the viewport will not be loaded until the user scrolls down to them.
+
+One downside of lazy loading is that it can affect SEO as search engines won't know to scroll down the page. To address SEO issues, any alt tags, captions, and titles of images should be loaded immediately. Only the image itself should be lazy loaded.
