@@ -52,3 +52,22 @@ For example, providing a unique `id` for a `Textfield` component in Material-UI 
 - Set font size or line height to zero, may be interpreted as malicious and affect SEO (search engine optimization)
 
 More info: [webaim](https://webaim.org/techniques/css/invisiblecontent/) , [accessible360](https://accessible360.com/accessible360-blog/use-aria-label-screen-reader-text/) , [stackoverflow](https://stackoverflow.com/questions/26032089/in-html-how-can-i-have-text-that-is-only-accessible-for-screen-readers-i-e-fo)
+
+## What are pros and cons of animations done by CSS vs javascript?
+- CSS
+  - Pros
+    1. Best for simple animations (e.g. fade, slide, etc.)
+    2. Most popular. So you'll find lots of resources for it on the web
+    3. Easy to modify on different viewports using Media Queries
+  - Cons
+    1. Difficult to orchastrate for complex aniamtions
+- JavaScript
+  - Pros
+    1. Easier to use with complex animations (e.g. ones with pause/play buttons)
+    2. Can be used for frame-by-frame animation (e.g. for gaming)
+        - This is usually done using `requestAnimationFrame`
+  - Cons
+    1. Less popular than CSS animations. So you'll find less resources for it on the web
+    2. More difficult to manage on different viewports
+
+More info: [Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript), [Vibrant Software](https://www.vibrantsoftware.com/resources/blog/vibrant/2017/05/03/using-css-animations-vs-javascript-animations)
