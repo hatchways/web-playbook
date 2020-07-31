@@ -18,7 +18,7 @@ In depth article: [here](<https://codeburst.io/javascript-map-vs-foreach-f381118
 
 # Object:
 
-Implemented like a dictionary, and has much of the same functionality as a hash map, however it has some characteristics that deviate from a traditional hash map implementation. First, only strings can be keys. Second, since in JavaScript’s prototype model, an object has a prototype and therefore has default keys. Third, there is no size property on objects. In objects, key-value pairs are unordered.
+Implemented like a dictionary, and has much of the same functionality as a hash map, however it has some characteristics that deviate from a traditional hash map implementation. First, only numbers and strings can be keys. Second, since in JavaScript’s prototype model, an object has a prototype and therefore has default keys. Third, there is no size property on objects. In objects, key-value pairs are unordered.
 
 # Map:
 
