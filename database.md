@@ -1,3 +1,30 @@
+## What is a primary key?
+A 'primary key' usually refers to first column in a table in a relational database.
+It's usually the `id` column. Tables use primary keys of other tables to have a
+reference to them. This is called a 'foreign key'. 
+
+Here's an example of sellers and products where the `id` is used as primary key:
+
+`sellers` table:
+| id | name  |
+|----|-------|
+| 1  | Sarah |
+| 2  | Mike  |
+| 3  | Joe   |
+
+`products` table:
+| id | title            | seller_id |
+|----|------------------|-----------|
+| 1  | Mike's Bread     | 2         |
+| 2  | Sarah's Lemonade | 1         |
+| 3  | Joe's Ice        | 3         |
+
+To reference the seller of each product in the `products` table, 
+we used the primary key of the corresponding record on the `sellers` table.
+
+The `seller_id` would be considered a foreign key that references the `sellers`
+table's primary key.
+
 ## What is the difference between soft delete and hard delete? Why would you want to do either or?
 - Soft delete: 
   - Flagging row as deleted (rather than actually deleting)
