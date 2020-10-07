@@ -16,3 +16,12 @@
       - This would be easier to code around (i.e. you'd have less conditionals)
   - Disadvantages:
     - No record of deleted data
+
+## What is normalization?
+Normalization is a database design technique that aims to eliminate redundancy in data.
+This allows you to avoid anomalies when doing INSERT, UPDATE, and DELETE operation where
+you may change data in one part and forget to change it in another.
+
+Normalization advances in terms of 'normal forms'; the higher up the form, the more normalized
+a database is. Read more about normal form hierarchy and database normalization [here](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms).
+
